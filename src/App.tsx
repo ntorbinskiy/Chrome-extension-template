@@ -9,7 +9,7 @@ function App() {
 		<div className="App">
 			<header className="App-header">
 				<img
-					src={chrome.runtime.getURL(logo)}
+					src={logo}
 					className="App-logo"
 					alt="logo"
 				/>
