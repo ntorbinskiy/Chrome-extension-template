@@ -1,19 +1,23 @@
 # Chrome-extension-template
 
-## Developing a new extension
+## Chrome Extension Webpack Boilerplate
 
-I'll assume that you already read the [Webpack](https://webpack.js.org/) docs and the [Chrome Extension docs](https://developer.chrome.com/docs/extensions/mv3/getstarted/).
+A basic foundation boilerplate for rich Chrome Extensions using [Webpack](https://webpack.github.io/) to help you write modular and modern Javascript code, load CSS easily and [automatic reload the browser on code changes](https://webpack.github.io/docs/webpack-dev-server.html#automatic-refresh).
 
-**Check if your Node.js version is >= 6.**
-1.Clone the repository.
-2.Install yarn.
-3.Run yarn.
-4.Change the package's name and description on package.json.
-5.Change the name of your extension on src/manifest.json.
-6.Run yarn run start
-7.Load your extension on Chrome following:
-  -Access chrome://extensions/
-  -Check Developer mode
-  -Click on Load unpacked extension
-  -Select the build folder.
-  -Have fun!
+### Developing a new extension
+_I'll assume that you already read the [Webpack docs](https://webpack.js.org) and the [Chrome Extension](https://developer.chrome.com/extensions/getstarted) docs._
+
+
+1. Check if your Node.js version is >= 6.
+2. Clone the repository.
+3. Install [yarn](https://yarnpkg.com/lang/en/docs/install/).
+4. Run `yarn`.
+5. Change the package's name and description on `package.json`.
+6. Change the name of your extension on `src/manifest.json`.
+7. Run `yarn run start`
+8. Load your extension on Chrome following:
+    1. Access `chrome://extensions/`
+    2. Check `Developer mode`
+    3. Click on `Load unpacked extension`
+    4. Select the `build` folder.
+9. Have fun.
