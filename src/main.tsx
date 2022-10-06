@@ -8,8 +8,8 @@ root.id = "crx-root";
 document.body.append(root);
 
 ReactDOM.render(
-	<React.StrictMode>
-		<App />
-	</React.StrictMode>,
-	root
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  root
 );
