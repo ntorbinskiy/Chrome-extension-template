@@ -17,4 +17,4 @@ _I'll assume that you already read the [Chrome Extension](https://developer.chro
    2. Check `Developer mode`
    3. Click on `Load unpacked extension`
    4. Select the `dist` folder.
-8. Have fun.
+8. Have fun!
