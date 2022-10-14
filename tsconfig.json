@@ -12,10 +12,14 @@
     "module": "ESNext",
     "moduleResolution": "Node",
     "resolveJsonModule": true,
-    "isolatedModules": true,
     "noEmit": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
     "jsx": "react-jsx"
   },
-  "include": ["src"],
+  "include": ["src", "background.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

@@ -1,15 +1,8 @@
-import React from "react";
-import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
+import { createRoot } from "react-dom/client";
+const container = document.getElementById("app");
 
-const root = document.createElement("div");
-root.id = "crx-root";
-document.body.append(root);
+const root = createRoot(container!); // createRoot(container!) if you use TypeScript
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  root
-);
+root.render(<App />);

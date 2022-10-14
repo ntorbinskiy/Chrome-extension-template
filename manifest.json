@@ -7,7 +7,11 @@
   },
   "content_scripts": [
     {
+      "matches": ["https://todoist.com/app/*"],
       "js": ["src/main.tsx"]
     }
-  ]
+  ],
+  "background": {
+    "service_worker": "background.ts"
+  }
 }
